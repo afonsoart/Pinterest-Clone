@@ -4,13 +4,17 @@
   box-sizing: border-box;
 }
 
-*, button, input {
+*,
+button,
+input {
   font-family: -apple-system, Ubuntu, Arial, sans-serif;
 }
 
-*, li {
+*,
+li {
   list-style: none;
-} /*# sourceMappingURL=reset.css.map */
+}
+
 .animate-before {
   transform: translateY(40px);
   opacity: 0;
@@ -18,7 +22,7 @@
 }
 
 .animate-after {
-  transform: translatey(-40px);
+  transform: translateY(-40px);
   opacity: 0;
   pointer-events: none;
 }
@@ -66,11 +70,11 @@ header nav .buttons button {
 }
 header nav .buttons .login {
   color: #fff;
-  background-color: #e60023;
+  background: #e60023;
 }
 header nav .buttons .signup {
   margin-left: 16px;
-  background-color: #efefef;
+  background: #efefef;
 }
 
 .heading {
@@ -109,6 +113,14 @@ header nav .buttons .signup {
 .grid {
   display: grid;
   grid-template-columns: repeat(7, 252px);
+  max-height: 0px;
+  visibility: hidden;
+  pointer-events: none;
+}
+.grid.active {
+  max-height: unset;
+  visibility: visible;
+  pointer-events: auto;
 }
 
 .column {
@@ -120,30 +132,37 @@ header nav .buttons .signup {
 }
 .column:nth-child(1) {
   margin-top: 0;
+  transition-delay: 0s;
 }
 .column:nth-child(2) {
   margin-top: 160px;
+  transition-delay: 0.2s;
 }
 .column:nth-child(3) {
   margin-top: 320px;
+  transition-delay: 0.4s;
 }
 .column:nth-child(4) {
   margin-top: 480px;
+  transition-delay: 0.6s;
 }
 .column:nth-child(5) {
   margin-top: 320px;
+  transition-delay: 0.8s;
 }
 .column:nth-child(6) {
   margin-top: 160px;
+  transition-delay: 1s;
 }
 .column:nth-child(7) {
   margin-top: 0;
+  transition-delay: 1.2s;
 }
 
 .item {
   width: 236px;
   height: 350px;
-  background-color: #e60023;
+  background: #e60023;
   border-radius: 10px;
 }
 
