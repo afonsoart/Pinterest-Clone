@@ -60,9 +60,13 @@
 .item {
   width: 236px;
   height: 350px;
-  background: $red;
   border-radius: 10px;
 }
 .item:not(:first-child) {
   margin-top: 16px;
+}
+
+.card-img{
+  width: 100%;
+  border-radius: 18px;
 }

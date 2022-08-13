@@ -162,10 +162,14 @@ header nav .buttons .signup {
 .item {
   width: 236px;
   height: 350px;
-  background: #e60023;
   border-radius: 10px;
 }
 
 .item:not(:first-child) {
   margin-top: 16px;
+}
+
+.card-img {
+  width: 100%;
+  border-radius: 18px;
 }/*# sourceMappingURL=styles.css.map */
