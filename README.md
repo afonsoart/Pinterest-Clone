@@ -8,5 +8,11 @@
 
 <h2><strong>Technologies :</strong></h2>
 <p>:heavy_check_mark: HTML, SCSS, JS</p>
+<h2><strong>Check out the page</strong></h2>
+<h3>:link: https://afonsoart.github.io/Pinterest-Clone/</h3>
+
+<h2><strong>Taught by :</strong></h2>
+<p>:white_circle: <a href="https://github.com/guilhermerodz">Guilherme Rodz</a></p>
+<p>:white_circle: <a href="https://www.youtube.com/playlist?list=PL85ITvJ7FLohTZv9cC5-PrZ39Q3cugWqp">Rocketseat's YT channel</a></p>
 
           
